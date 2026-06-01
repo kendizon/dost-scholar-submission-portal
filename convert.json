@@ -1,0 +1,5 @@
+const report = JSON.parse($input.first().json.content.parts[0].text);
+
+return [{
+  json: report
+}];

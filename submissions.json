@@ -1,0 +1,11 @@
+
+const rows = $input.all().map(item => item.json);
+
+return [
+  {
+    json: {
+      totalSubmissions: rows.length,
+      submissions: rows
+    }
+  }
+];
